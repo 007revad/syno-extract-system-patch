@@ -23,7 +23,7 @@ Execute the following command.
 ```
 sudo docker run --rm -v ~/data:/data syno-extract-system-patch \
   /data/in/DSM_DS1821+_64213.pat \
-  /data/out/.
+  /data/out/DSM_DS1821+_64213/.
 ```
 The extracted pat file will be in `~/data/out`.
 ```
