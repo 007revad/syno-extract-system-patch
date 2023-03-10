@@ -16,7 +16,7 @@ sudo docker build --tag syno-extract-system-patch .
 Place the pat file you want to extract in `~/data/in`.
 ```
 $ ls ~/data/in
-DSM_DS723+_42962.pat
+DSM_DS1821+_64213.pat
 $
 ```
 Execute the following command.
