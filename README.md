@@ -19,12 +19,16 @@ $ ls ~/data/in
 DSM_DS1821+_64213.pat
 $
 ```
-Execute the following command.
+Then either:
+
+- Run the `syno-extract-dsm-pat.sh` script, which allows you to select the patch file.
+- Execute the following command (replace DSM_DS1821+_64213 with your patch filename).
 ```
 sudo docker run --rm -v ~/data:/data syno-extract-system-patch \
   /data/in/DSM_DS1821+_64213.pat \
   /data/out/DSM_DS1821+_64213/.
 ```
+
 The extracted pat file will be in `~/data/out`.
 ```
 $ ls ~/data/out
