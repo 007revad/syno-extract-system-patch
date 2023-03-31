@@ -12,7 +12,7 @@ if [[ $( whoami ) == "root" ]]; then
 fi
 
 # Remove any @eaDir directories
-find ~/data/ -type d -name "@eaDir" -exec rm -r {} \; </dev/null
+find ~/data/ -type d -name "@eaDir" -exec rm -r {} \; >/dev/null
 
 
 if [[ -n $1 ]]; then
